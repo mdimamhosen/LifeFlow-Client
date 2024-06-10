@@ -114,7 +114,6 @@ const SignUp = () => {
         Swal.fire({
           title: "Profile Created!",
           text: `${"User"} Profile created successfully! Please login to continue.`,
-          // imageUrl: loggedUser?.photoURL || imageUrl,
           imageWidth: 200,
           imageHeight: 200,
           imageAlt: "Profile Image",
