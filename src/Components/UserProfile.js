@@ -391,7 +391,7 @@ const UserProfile = () => {
             <div
               className="rounded-lg border-2 bg-white border-red-500 w-64 h-64 lg:w-80 lg:h-80"
               style={{
-                backgroundImage: `url(${userInfo?.image})`,
+                backgroundImage: `url(${userInfo?.photo})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
