@@ -1,0 +1,17 @@
+.hero-container {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1023px) {
+  .hero-container {
+    background-image: url(https://i.postimg.cc/5NbCvRq1/240-F-606443804-j-Yagxn3-Gc-TCUAY02.png);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero-container {
+    background-image: url(https://i.postimg.cc/rpFjJp1V/240-F-372397606-KXFH7-EFxbwx-FFt-GL.png);
+  }
+}
