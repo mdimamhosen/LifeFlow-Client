@@ -49,7 +49,6 @@ const Login = () => {
       toast.error(error.message.split(" ").slice(1).join(" "));
 
       setLoading(false);
-      // setErrors(error.message);
     }
   };
 
